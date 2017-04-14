@@ -5,6 +5,134 @@
 			"css/mui.min.css",
 			"js/jquery-3.1.1.min.js",
 			"js/rem.js"
+		],
+		"refer": [
+			"pages/tab-webview-main.html"
+		]
+	},
+	"pages/tab-webview-main.html": {
+		"resources": [
+			"pages/tab-webview-subpage-about.html",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"pages/tab-webview-subpage-about.html",
+			"pages/tab-webview-subpage-setting.html",
+			"pages/tab-webview-subpage-contact.html",
+			"pages/tab-webview-subpage-chat.html",
+			"pages/login.html",
+			"pages/login/login.html"
+		]
+	},
+	"pages/login.html": {
+		"resources": [
+			"pages/images/sinaweibo.png",
+			"pages/images/weixin.png",
+			"pages/js/mui.enterfocus.js",
+			"pages/images/qq.png",
+			"pages/js/app.js",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"pages/main.html"
+		]
+	},
+	"pages/main.html": {
+		"resources": [
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"pages/tab-webview-subpage-about.html": {
+		"resources": [
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"pages/tab-webview-subpage-chat.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"pages/tab-webview-subpage-setting.html": {
+		"resources": [
+			"css/mui.min.css",
+			"pages/images/sinaweibo.png",
+			"pages/images/weixin.png",
+			"pages/js/mui.enterfocus.js",
+			"pages/images/qq.png",
+			"pages/js/app.js",
+			"pages/css/style.css"
+		],
+		"refer": [
+			"pages/login/main.html",
+			"pages/login/reg.html",
+			"pages/login/unlock.html"
+		]
+	},
+	"pages/login/login.html": {
+		"resources": [
+			"pages/login/images/qq.png",
+			"pages/login/js/mui.min.js",
+			"pages/login/css/style.css",
+			"pages/login/js/app.js",
+			"pages/login/images/sinaweibo.png",
+			"pages/login/images/weixin.png",
+			"pages/login/css/mui.min.css",
+			"pages/login/js/mui.enterfocus.js"
+		],
+		"refer": [
+			"pages/login/main.html"
+		]
+	},
+	"pages/login/main.html": {
+		"resources": [
+			"pages/login/css/mui.min.css",
+			"pages/login/js/mui.min.js",
+			"pages/login/js/app.js"
+		],
+		"refer": [
+			"pages/login/setting.html"
+		]
+	},
+	"pages/login/setting.html": {
+		"resources": [
+			"pages/login/libs/easymob-webim-sdk/jquery-1.11.1.js",
+			"pages/login/fonts/mui.ttf",
+			"pages/login/libs/easymob-webim-sdk/json2.js",
+			"pages/login/js/mui.locker.js",
+			"pages/login/js/feedback-page.js",
+			"pages/login/libs/easymob-webim-sdk/strophe-custom-2.0.0.js",
+			"pages/login/js/mui.view.js",
+			"pages/login/css/feedback-page.css",
+			"pages/login/js/feedback.js",
+			"pages/login/libs/easymob-webim-sdk/easemob.im-1.0.5.js",
+			"pages/login/css/mui.min.css",
+			"pages/login/images/iconfont-tianjia.png"
+		],
+		"refer": [
+			"pages/login/login.html",
+			"pages/tab-webview-subpage-setting.html"
+		]
+	},
+	"pages/login/reg.html": {
+		"resources": [
+			"pages/login/css/style.css",
+			"pages/login/css/mui.min.css"
+		],
+		"refer": [
+			"pages/login/login.html",
+			"pages/login/main.html"
+		]
+	},
+	"pages/login/unlock.html": {
+		"resources": [
+			"pages/login/js/mui.locker.js"
+		],
+		"refer": [
+			"pages/login/main.html",
+			"pages/login/login.html"
 		]
 	}
 }
